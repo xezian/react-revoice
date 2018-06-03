@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(81, 224, 243, 0.267);
+  background-color: rgba(243, 115, 255, 0.185);
 }
 
 .App {
@@ -8,25 +8,17 @@ body {
 
 .App-logo {
   position: relative;
-  animation: App-logo-spin infinite 15s linear;
+  animation: App-logo-spin infinite 180s linear;
   height: 80px;
   z-index: -1;
 }
 
 .App-header {
   position: relative;
-  background-color: rgba(243, 115, 255, 0.185);
+  background-color: rgba(81, 224, 243, 0.267);
   height: 150px;
   padding: 20px;
-  color: #5184f3;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+  color: #420aeb83;
 }
 
 .directions {
@@ -34,7 +26,8 @@ body {
 }
 
 .record-label {
-  color:#440aeb2f
+  font-size: 1.7em;
+  color: #5184f362;
 }
 
 @keyframes App-logo-spin {
