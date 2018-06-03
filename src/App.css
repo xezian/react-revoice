@@ -1,0 +1,43 @@
+body {
+  background-color: rgba(81, 224, 243, 0.267);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  position: relative;
+  animation: App-logo-spin infinite 15s linear;
+  height: 80px;
+  z-index: -1;
+}
+
+.App-header {
+  position: relative;
+  background-color: rgba(243, 115, 255, 0.185);
+  height: 150px;
+  padding: 20px;
+  color: #5184f3;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.directions {
+  color: #ee33428f
+}
+
+.record-label {
+  color:#440aeb2f
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
